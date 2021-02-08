@@ -2,7 +2,7 @@
 
 ## Part 1: Implementing a FatTree topology on Mininet
 
-A two-stage fat-tree network is created as shown in the diagram below where N is a variable provided by the user.
+A two-stage fat-tree network is created as shown in the diagram. Variable N is a parameter provided by the user representing number of ports in a switch.
 
 <p align="center">
   <img src="https://github.com/madhav-prabhu/SDN/blob/main/Part1/fattree_topo.PNG" width='700' title="Topology1">

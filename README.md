@@ -15,9 +15,11 @@ sudo mn --custom ~/../p1_fattree_topology.py --topo fattree,4
 Switches are named as s(level)(number), level:1 = core,2=edge
 
 ## Part 2: Implementing a Custom topology with manual flow-rule installation
-
+<p align="center">
+  <img src="https://github.com/madhav-prabhu/SDN/blob/main/Part2/custom_topo.PNG" width='700' title="Topology3">
+</p>
 
 ## Part 3: Implementing a Custom topology with flow-rule installation using RYU controller
 <p align="center">
-  <img src="https://github.com/madhav-prabhu/SDN/blob/main/Part2/ryu_topo.PNG" width='700' title="Topology2">
+  <img src="https://github.com/madhav-prabhu/SDN/blob/main/Part3/ryu_topo.PNG" width='700' title="Topology3">
 </p>

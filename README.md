@@ -19,8 +19,7 @@ Switches are named as s(level)(number), level:1 = core,2=edge
   <img src="https://github.com/madhav-prabhu/SDN/blob/main/Part2/custom_topo.PNG" width='700' title="Topology3">
 </p>
 
-## Part 3: Implementing a Custom topology with flow-rule installation  
-using RYU controller
+## Part 3: Implementing a Custom topology with flow-rule installation using RYU controller
 <p align="center">
   <img src="https://github.com/madhav-prabhu/SDN/blob/main/Part3/ryu_topo.PNG" width='700' title="Topology3">
 </p>

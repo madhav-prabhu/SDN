@@ -11,9 +11,15 @@ A two-stage fat-tree network is created as shown in the diagram. Variable N is a
   <img src="https://github.com/madhav-prabhu/SDN/blob/main/Part1/fattree_topo.PNG" width='700' title="Topology1">
 </p>
 
+To get started, clone the repository using the following command,
+```bash
+git clone https://github.com/madhav-prabhu/SDN.git
+cd Part1
+```
+
 To simulate the network on Mininet, use the following command with e.g. N=4, 
 ```bash
-sudo mn --custom ~/../p1_fattree_topology.py --topo fattree,4
+sudo mn --custom ~/../Part1/p1_fattree_topology.py --topo fattree,4
 ```
 Switches are named as s(level)(number), level:1 = core,2=edge
 
@@ -38,9 +44,10 @@ The following flow-based rules are manually installed on the switches:
   +  HTTP traffic with s_port=80 follows path Sw_D -> Sw_C -> Sw_A
   +  All other traffic follows path Sw_D -> Sw_B -> Sw_E -> Sw_C -> Sw_A
 
-To simulate the network on Mininet, run the following command
+Clone the repository using steps shown in Part1.
+To simulate the network on Mininet, change directory to Part2 and run the following command
 ```bash
-sudo mn --custom ~/../p2_custom_topology.py --topo=ctp --controller remote
+sudo mn --custom ~/../Part2/p2_custom_topology.py --topo=ctp --controller remote
 ```
 The '--controller remote' option disables the default controller.
 
@@ -76,7 +83,8 @@ The following flow-based rules are reactively installed on the switches by the R
   + ICMP & TCP take the clockwise path
   + UDP traffic takes the counter-clockwise path
 
-To simulate the network on Mininet, run the following command
+Clone the repository using steps shown in Part1.
+To simulate the network on Mininet, change directory to Part3 and run the following command
 ```bash
 sudo mn --custom ~/../p3_custom_topology.py --topo=mytopo --controller remote
 ```
